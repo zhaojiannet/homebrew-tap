@@ -6,25 +6,25 @@ cask "cclayer" do
     end
   end
 
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      sha256 "617f282b4cb9b281d99411bd723b63e28ccabfeded0ab4613526d7affc608781"
+      sha256 "6fedd767821aa7a56ac0d09042e83c1c154549ef431d159c8cf1b4f2f9c7b203"
       url "https://github.com/zhaojiannet/cclayer/releases/download/v#{version}/cclayer_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "fc4d7e8a1bee3679c8f0b2931008659b87515ceefaa39c42740189f5738ba724"
+      sha256 "54bd721e8ed226b9e111da36eecc95c1e6c6f3ac115fe0c7762df49714260a96"
       url "https://github.com/zhaojiannet/cclayer/releases/download/v#{version}/cclayer_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "47879ac5721a66a365f7f87a00649620efd1f2165280554f7fd5f0fd7e720216"
+      sha256 "bf39b1ff8374ced39a004061ed94a3ba1b6ef5c09a3d2c6e965a34022e34df6c"
       url "https://github.com/zhaojiannet/cclayer/releases/download/v#{version}/cclayer_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1bfbafd87a62290f4ba783ead3f8a2222d7a84dc87ca4b47a5c3f717d09a5aee"
+      sha256 "5eb7e0120310bb95f5fa8cc5b311463d2b15c523f81390d8f9b0007d0706a86e"
       url "https://github.com/zhaojiannet/cclayer/releases/download/v#{version}/cclayer_#{version}_linux_amd64.tar.gz"
     end
   end
